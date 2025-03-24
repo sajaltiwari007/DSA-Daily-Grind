@@ -21,11 +21,23 @@ Constraints:
 2 ≤ arr.size() ≤ 100
 1 ≤ arr[i] ≤ 200
 
+Approach
+Implemented using a recursive approach with memoization to optimize redundant calculations.
+A 2D dp array stores intermediate results to avoid recomputation.
+The function helper() recursively finds the optimal partition to minimize the cost of matrix multiplication.
+
+Complexity
+Time Complexity:O(n^3)
+Space Complexity: O(n^2)
+
 ## MY JAVA SOLUTION USING DP 
 
-class Solution {
+
+   
+    class Solution{
     static int matrixMultiplication(int arr[]) {
-        // code here
+        
+         code here
         
         int[][] dp = new int[arr.length+1][arr.length+1];
         for(int i=0;i<dp.length;i++) Arrays.fill(dp[i],-1);
@@ -41,5 +53,4 @@ class Solution {
         }
         
         return dp[start][end] = mini;
-    }
-}
+    }}
