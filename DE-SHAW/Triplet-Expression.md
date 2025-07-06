@@ -1,5 +1,5 @@
 ## Ques Description-: 
-You are given an array of N integers arr and another integer r. You need to choose three indices (i,j,k) such that i<=j<=k and the value of the expression ( arr[i]+arr[j]*r+arr[k]*r*r ) is maximized. Find the maxium value.
+You are given an array of N integers arr and another integer r. You need to choose three indices (i,j,k) such that i<=j<=k and the value of the expression ( arr[i]+arr[j]*r+arr[k]*r^2 ) is maximized. Find the maxium value.
 Constraint -: N upto 10^5 , |r|<=100 , |arr[x]|<=10^9
 
 ## Strategy
