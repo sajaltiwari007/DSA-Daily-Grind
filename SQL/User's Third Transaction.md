@@ -89,9 +89,7 @@ WHERE rn = 3;
 
 
 
----
 
-Let me know if you want the same format for LeetCode, HackerRank, etc., or want to include file headers/comments for GitHub!
 
 
 
