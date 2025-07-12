@@ -3,7 +3,7 @@
 
 ---
 
-###  **Approach Explanation **
+###  Approach Explanation 
 
 1. **Check if all characters** in the string are already equal to `c`:
 
@@ -24,10 +24,8 @@
 ###  **Time Complexity**
 
 * **Worst-case per test case**:
-  $O(n \log n)$ — trying all `x` from `1` to `n`, and for each `x`, iterating through $\frac{n}{x}$ positions.
+  O(nlog n) — trying all `x` from `1` to `n`, and for each `x`, iterating through n/x positions.
 
-* **Total across all test cases**:
-  $\sum n \leq 3 \times 10^5$ ⇒ efficient under given constraints.
 
 ---
 
